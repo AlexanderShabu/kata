@@ -1,5 +1,5 @@
 defmodule Intriangle do
-  def get_b(a,c) do
+  def get_b(a,c) do 
     temp=4*c*c-3*a*a
     if temp > 0, do: ((:math.sqrt(temp)) - a)/2.0, else: -1  
   end
